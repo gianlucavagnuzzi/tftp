@@ -1,0 +1,15 @@
+
+# https://hub.docker.com/repository/docker/rardcode/tftp/tags
+
+services:
+  tftp:
+    image: rardcode/tftp
+    container_name: tftp
+    environment:
+    - TZ=Europe/Rome
+    volumes:
+    - /etc/localtime:/etc/localtime:ro
+    - /var/tftpboot:/var/tftpboot
+    ports:
+    - 69:69/udp
+    restart: unless-stopped
