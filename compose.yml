@@ -1,9 +1,9 @@
 
-# https://hub.docker.com/repository/docker/rardcode/tftp/tags
+# https://hub.docker.com/repository/docker/gianlucavagnuzzi/tftp/tags
 
 services:
   tftp:
-    image: rardcode/tftp
+    image: gianlucavagnuzzi/tftp
     container_name: tftp
     environment:
     - TZ=Europe/Rome
