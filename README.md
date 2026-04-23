@@ -26,6 +26,9 @@ services:
     restart: unless-stopped
 ```
 ## Changelog
+### v3234.52r7 - 23.04.2026
+- Alpine v3.23.4
+
 ### v3233.52r7 - 20.03.2026
 - Alpine v3.23.3
 - Tftp-hpa v5.2-r7
