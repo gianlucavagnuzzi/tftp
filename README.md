@@ -26,6 +26,9 @@ services:
     restart: unless-stopped
 ```
 ## Changelog
+### v3241.52r7 - 17.06.2026
+- Alpine v3.24.1
+
 ### v3240.52r7 - 11.06.2026
 - Alpine v3.24.0
 

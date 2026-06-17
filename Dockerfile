@@ -1,6 +1,6 @@
 
 ## https://hub.docker.com/_/alpine/tags
-FROM alpine:3.24.0
+FROM alpine:3.24.1
 
 ## https://pkgs.alpinelinux.org/packages?name=tftp-hpa&branch=v3.23&repo=&arch=x86_64&origin=&flagged=&maintainer=
 ENV tftpV="tftp-hpa=~5.2-r7"
