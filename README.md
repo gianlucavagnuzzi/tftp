@@ -10,14 +10,14 @@ Tftp server based on Alpine Linux.
 ## To run:
 ### ...by docker run:
 ```
-docker run -di -p 69:69/udp -v /var/tftpboot:/var/tftpboot rardcode/tftp
+docker run -di -p 69:69/udp -v /var/tftpboot:/var/tftpboot gianlucavagnuzzi/tftp
 ```
 
 ### ...by docker-compose file:
 ```
 services:
   app:
-    image: rardcode/tftp
+    image: gianlucavagnuzzi/tftp
     container_name: tftp
     volumes:
     - /var/tftpboot:/var/tftpboot
